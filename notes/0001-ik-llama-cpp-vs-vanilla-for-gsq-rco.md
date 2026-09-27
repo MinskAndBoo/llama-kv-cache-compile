@@ -22,7 +22,7 @@ The question was whether that fork is required over vanilla upstream.
 Vanilla won on every axis — +16% prefill, +40% decode, ~1.3 GiB less VRAM.
 The daily runner was switched to vanilla; the fork remains fully
 restorable. Everything the fork had that was special (the `q6_0` KV type,
-`--spec-ckpt-mode`, `--no-mmap`) has a vanilla equivalent or was not
+`--recurrent-ckpt-mode`, `--no-mmap`) has a vanilla equivalent or was not
 load-bearing.
 
 **Why this note is out of scope here.** This package is about a different
